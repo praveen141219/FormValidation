@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="container" onsubmit="return  display()">
+        <h1 class="login">Login</h1>
+        <input type="text" class="username" placeholder="Username">
+        <div class="usernameWarning"></div>
+        <input type="password" class="password" placeholder="Password">
+        <div class="passwordWarning"></div>
+        <input type="submit" class="btn"></input>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
